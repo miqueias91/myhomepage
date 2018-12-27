@@ -26,6 +26,17 @@ header a:hover {
 i {
 	font-size: 20px;
 }
+.botao {
+    border: 1px solid #f27609;
+    border-radius: 30px;
+    padding: 15px;
+    color: #f27609;
+}
+.botao:hover {
+	text-decoration: none;
+	color: #eee;
+	background-color: #f27609;
+}
 .nav-link {
 	padding: .5rem 0.8rem;
 }
@@ -291,6 +302,17 @@ i {
     line-height: 24px;
     margin-top: -43px;
 }
+.card-body h5 {
+	color: #f27609;
+	font-weight: bold;
+}
+.card-body .botao {
+	font-size: 13px;
+	padding: 10px;
+}
+.card-body .botao i{
+	font-size: 13px;
+}
 #contacts .center {
     display: table;
     table-layout: fixed;
@@ -394,6 +416,13 @@ i {
 		font-size: 15px;
 	    line-height: 24px;
 	    margin-top: 10px;
+	}
+	#portfolio .card {
+		max-width: 100%;
+	}
+	#portfolio .card .botao {
+	    display: block;
+	    margin-bottom: 10px;
 	}
 	#contacts .center .conteudo-contacts {
 	    padding-left: 15px;
